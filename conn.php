@@ -9,7 +9,7 @@ $dbname = '3linepoem';
 $host = 'localhost';
 $port = '3306';
 $user = 'root';
-$pwd = '520250wdkwdk';
+$pwd = 'pass';
 
 $link = @mysql_connect("{$host}:{$port}",$user,$pwd,true);
 if(!$link) {
